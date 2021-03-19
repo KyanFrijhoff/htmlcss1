@@ -1,0 +1,23 @@
+body {
+background-color: cyan
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex; /* li's naast elkaar */
+  justify-content: space-around; /* ruimte tussen de items */
+
+  list-style-type: none; /* weg met de puntjes */
+}
+
+li {
+  background-color: lightgreen;
+  padding: 10px;
+  border: 5px solid green;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#container {
+  width: 400px;
+  margin: auto;
+}
