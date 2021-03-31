@@ -1,5 +1,5 @@
 body {
-background-color: cyan
+ background-image: linear-gradient(-90deg, red, cyan);
 }
 ul {
   margin: 0px;
@@ -15,9 +15,28 @@ li {
   padding: 10px;
   border: 5px solid green;
   border-radius: 10px 10px 10px 10px;
+  width: 100px;
+  text-align: center;
 }
 
 #container {
   width: 400px;
   margin: auto;
+}
+
+.contaitable {
+  display: flex;
+  justify-content: center;
+}
+
+table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+  padding: 3px 3px 3px 3px;
+}
+h1  {
+  font-family: "Times New Roman";
+}
+p {
+  font-family: Arial;
 }
